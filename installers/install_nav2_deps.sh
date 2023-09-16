@@ -7,4 +7,5 @@ apt-get update -y &&
         ros-humble-nav2-bringup \
         ros-humble-rmw-cyclonedds-cpp \
         ros-humble-navigation2 \
-        ros-humble-turtlebot3*
+        ros-humble-turtlebot3* \
+        ros-humble-test-msgs
