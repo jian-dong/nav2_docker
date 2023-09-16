@@ -50,7 +50,6 @@ sudo usermod -aG docker $USER
 安装 ade-cli
 ```bash
 wget https://gitlab.com/ApexAI/ade-cli/-/jobs/1341322851/artifacts/raw/dist/ade+x86_64
-#如果您的网络不好没法下载可以直接在把 `bin/` 下面的ade直接copy到 `/usr/local/bin`下面去
 mv ade+x86_64 ade
 chmod +x ade
 mv ade /usr/local/bin
@@ -113,9 +112,6 @@ export ADE_IMAGES="
  nav2_docker_env:x86_humble
  "
 ```
-
-`--device`是吧相机挂载到docker里面去
-不同相机名字不一样
 
 开启container, cd 到你放 `.aderc`那个目录
 
